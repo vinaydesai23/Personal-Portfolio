@@ -3,31 +3,35 @@ import myImage from "../assets/20241227_111350.jpg";
 
 const Home = () => {
   return (
-    <div id="Home" className="text-white bg-black flex flex-col items-center justify-center min-h-screen p-4">
-      <div className="text-center w-full flex flex-col items-center justify-center">
-        <div className="w-full flex flex-col items-center justify-center p-1">
-          <h1 className="text-xl md:text-4xl font-bold leading-normal tracking-tighter mb-4">
-            Hey there, I am Vinay Desai
+    <section
+      id="Home"
+      className="bg-gradient-to-b from-black via-gray-900 to-black text-white min-h-screen flex items-center justify-center px-6"
+    >
+      <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 items-center gap-12 py-20">
+        <div className="space-y-6">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
+            Hey there, I'm <span className="text-blue-500">Vinay Desai</span>
           </h1>
-          <p className="text-sm md:text-lg tracking-tight mb-8 max-w-md">
-            I’m a passionate Software Developer with three years of experience
-            at SAP. Having a strong enthusiasm for problem-solving, and
-            continuous learning.
+          <p className="text-sm sm:text-base text-gray-300">
+            A passionate Software Developer with three years of experience at
+            SAP. Having a strong enthusiasm for problem-solving, and continuous
+            learning.
           </p>
-          <p className="text-sm md:text-lg tracking-tight mb-8 max-w-md">
+          <p className="text-sm sm:text-base text-gray-300">
             Outside of work I enjoy hiking the mountains, doing photography, and
             going on bike rides.
           </p>
         </div>
-        <div className="w-full flex justify-center items-center mt-8 ">
+
+        <div className="flex justify-center md:justify-end">
           <img
-            className="w-4/5 sm:w-3/5 md:w-2/6 rounded-lg"
             src={myImage}
-            alt="About Me"
+            alt="Vinay Desai"
+            className="rounded-2xl w-4/5 md:w-3/4 shadow-lg"
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
