@@ -19,11 +19,33 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-black bg-opacity-80 backdrop-blur-md text-white px-6 md:px-20 py-4 flex justify-between items-center shadow-sm">
       <div className="flex items-center gap-4">
-        <FaLinkedin className="hover:text-blue-400 cursor-pointer" />
-        <FaInstagram className="hover:text-pink-400 cursor-pointer" />
-        <FaGithub className="hover:text-gray-300 cursor-pointer" />
-        <FaEnvelope className="hover:text-red-400 cursor-pointer" />
-        <FaPhoneAlt className="hover:text-green-400 cursor-pointer" />
+        <a
+          href="https://www.linkedin.com/in/vinaydesai23/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedin className="hover:text-blue-400 cursor-pointer" />
+        </a>
+        <a
+          href="https://www.instagram.com/vinay._.desai/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaInstagram className="hover:text-pink-400 cursor-pointer" />
+        </a>
+        <a
+          href="https://github.com/vinaydesai23"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub className="hover:text-gray-300 cursor-pointer" />
+        </a>
+        <a href="mailto:vinaydesai2303@gmail.com">
+          <FaEnvelope className="hover:text-red-400 cursor-pointer" />
+        </a>
+        <a href="tel:+918296338415">
+          <FaPhoneAlt className="hover:text-green-400 cursor-pointer" />
+        </a>
       </div>
 
       {/* Desktop Menu */}
@@ -43,10 +65,12 @@ const Navbar = () => {
         ))}
       </ul>
 
+      {/* Mobile Toggle */}
       <div className="md:hidden" onClick={toggleMenu}>
         {menuOpen ? <RiCloseLine size={28} /> : <RiMenu2Line size={28} />}
       </div>
 
+      {/* Mobile Menu */}
       {menuOpen && (
         <div className="absolute top-16 left-0 w-full bg-black bg-opacity-95 text-white flex flex-col items-center py-6 gap-6 md:hidden">
           {navItems.map((item) => (
