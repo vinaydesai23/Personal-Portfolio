@@ -41,7 +41,7 @@ const Skills = () => {
   return (
     <section
       id="Skills"
-      className="h-screen w-full bg-black flex flex-col justify-center items-center px-4"
+      className="min-h-screen w-full bg-black flex flex-col justify-center items-center px-4"
     >
       <h2 className="text-4xl font-bold text-white text-center mb-12">My Skills</h2>
       <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 gap-8 max-w-5xl w-full">

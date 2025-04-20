@@ -12,7 +12,7 @@ const Navbar = () => {
   const [menu, openMenu] = useState(false);
   const [showMenu, setShowmenu] = useState(true);
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-blue-600 bg-opacity-80 flex flex-wrap justify-between items-center text-white px-10 pt-6 md:px-20">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-blue-600 bg-opacity-80 flex flex-wrap justify-between items-center text-white px-4 pt-4 md:px-20 md:pt-6">
       <div className="flex items-center gap-4">
         <a
           href="https://www.linkedin.com/in/vinaydesai23/"
