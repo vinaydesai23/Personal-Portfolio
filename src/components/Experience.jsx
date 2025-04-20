@@ -1,5 +1,5 @@
 import React from "react";
-import { SiSap,SiIeee } from "react-icons/si";
+import { SiSap, SiIeee } from "react-icons/si";
 
 const experiences = [
   {
@@ -30,8 +30,8 @@ const experiences = [
     duration: "Jan 2021 – Dec 2021",
     icon: SiIeee,
     description: [
-      "Orgnaized multiple technical events for nation level fests for IEEE.",
-      "Collaborated with mutiple other technical clubs intra college.",
+      "Organized multiple technical events for national-level fests for IEEE.",
+      "Collaborated with multiple other technical clubs within the college.",
     ],
   },
 ];
@@ -40,11 +40,9 @@ const Experience = () => {
   return (
     <section
       id="Experience"
-      className="min-h-screen w-full bg-black flex flex-col justify-center items-center px-4"
+      className="min-h-screen w-full bg-black flex flex-col justify-center items-center px-4 py-12"
     >
-      <h2 className="text-4xl font-bold text-white text-center mb-12">
-        Experience
-      </h2>
+      <h2 className="text-4xl font-bold text-white text-center mb-12">Experience</h2>
 
       <div className="grid gap-8 md:grid-cols-1 max-w-6xl w-full">
         {experiences.map((exp, index) => (
