@@ -3,16 +3,16 @@ import { FaGithub } from "react-icons/fa";
 const Projects = () => {
   const projects = [
     {
-      title: "React Portfolio Website",
+      title: "AI Travel Guide",
       description:
-        "A personal portfolio built with React and Tailwind CSS showcasing skills, experience, and projects.",
-      github: "https://github.com/yourusername/portfolio",
+        "Built an AI-powered travel assistant using React.js, Tailwind CSS with Google Authentication and Firebase for user management.Integrated Gemini API to provide personalized travel tips based on user preferences and conditions.Ensured real-time response handling and seamless user experience across platforms.",
+      github: "https://github.com/vinaydesai23/AI-Travel-Guide",
     },
     {
-      title: "Task Manager App",
+      title: "Personal Portfolio",
       description:
-        "A full-stack task management app built with Node.js, Express, MongoDB, and React.",
-      github: "https://github.com/yourusername/task-manager",
+        "Developed a responsive personal portfolio using React.js and Tailwind CSS to showcase projects and skills.Implemented smooth navigation, interactive UI elements, and optimized performance for all devices.",
+      github: "https://github.com/vinaydesai23/Personal-Portfolio",
     },
   ];
 

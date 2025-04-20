@@ -8,9 +8,11 @@ const experiences = [
     duration: "July 2022 – Present",
     icon: SiSap,
     description: [
-      "Worked with SAP CAP model and UI5 for enterprise applications.",
-      "Built and maintained full-stack web applications using React and Node.js.",
-      "Collaborated with cross-functional teams to deliver scalable solutions for multiple Fortune 500 Companies.",
+      "Worked on React.js to develop modern, responsive user interfaces and dynamic internal dashboards, enhancing user experience and usability across devices.",
+      "Developed and maintained full-stack applications using SAP CAP Model with a Node.js backend and UI5 frontend, ensuring scalable and efficient enterprise solutions.",
+      "Actively contributed to internal tools that improved operational workflows and overall project efficiency.",
+      "Built and enhanced enterprise modules like HR and Finance for Fortune 500 clients, integrated with SAP platforms like SuccessFactors.",
+      "Ensured clean architecture, secure API integration, and adherence to best practices in enterprise-grade development.",
     ],
   },
   {
@@ -19,8 +21,7 @@ const experiences = [
     duration: "Jan 2022 – Jun 2022",
     icon: SiSap,
     description: [
-      "Worked on the developemnt of SAP Business By Design-ByD.",
-      "SAP ByD is an SME based ERP Product",
+      "Developed custom cloud solutions for SAP Business ByDesign (ByD), an ERP platform for small and medium enterprises, using ABAP and SAP UI5 for backend logic and intuitive UI design.",
     ],
   },
   {

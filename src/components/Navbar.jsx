@@ -1,6 +1,12 @@
 import { RiCloseLine, RiMenu2Line } from "@remixicon/react";
 import React, { useState } from "react";
-import { FaLinkedin, FaInstagram, FaGithub, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaInstagram,
+  FaGithub,
+  FaEnvelope,
+  FaPhoneAlt,
+} from "react-icons/fa";
 
 const Navbar = () => {
   const [menu, openMenu] = useState(false);
@@ -45,11 +51,11 @@ const Navbar = () => {
           <FaEnvelope size={24} />
         </a>
         <a
-          href="+91 8296338415"
+          href="tel:+918296338415"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-pink-400 transition-colors"
-          title="Call"
+          title="Phone"
         >
           <FaPhoneAlt size={24} />
         </a>
