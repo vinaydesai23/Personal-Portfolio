@@ -13,7 +13,6 @@ import {
   SiGithub,
   SiMysql,
   SiSqlite,
-  SiJenkins,
   SiCplusplus,
   SiPython
 } from "react-icons/si";
@@ -34,7 +33,6 @@ const skills = [
   { name: "Git", icon: <SiGit className="text-red-500" /> },
   { name: "MySQL", icon: <SiMysql className="text-red-500" /> },
   { name: "SQLite", icon: <SiSqlite className="text-red-500" /> },
-  { name: "Jenkins", icon: <SiJenkins className="text-red-500" /> },
 ];
 
 const Skills = () => {
